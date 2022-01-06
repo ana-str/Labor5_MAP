@@ -1,7 +1,7 @@
-package controller;
+package uni.controller;
 
-import entities.Course;
-import repository.CourseJdbcRepository;
+import uni.entities.Course;
+import uni.repository.CourseJdbcRepository;
 
 import java.sql.SQLException;
 import java.util.Comparator;
