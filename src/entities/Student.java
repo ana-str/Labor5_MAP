@@ -1,8 +1,8 @@
-package entities;
+package uni.entities;
 
 
-import exceptions.ExceededValueException;
-import exceptions.InvalidDataException;
+import uni.exceptions.ExceededValueException;
+import uni.exceptions.InvalidDataException;
 
 import java.util.ArrayList;
 import java.util.List;
