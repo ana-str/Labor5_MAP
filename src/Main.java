@@ -7,7 +7,7 @@ import uni.controller.TeacherController;
 
 import uni.entities.Course;
 import uni.repository.*;
-import uni.view.ConsoleMenu;
+import uni.view.MenuConsole;
 
 import java.sql.*;
 
@@ -23,6 +23,7 @@ public class Main {
         TeacherController teacherController = new TeacherController(teacherRepository);
 
         RegistrationSystem registrationSystem = new RegistrationSystem(studentController, courseController, teacherController);
-        ConsoleMenu consoleMenu = new ConsoleMenu(registrationSystem);
-        consoleMenu.startConsole();
+        MenuConsole menuConsole = new MenuConsole(registrationSystem);
+        menuConsole.runConsole();
+    }
 }
