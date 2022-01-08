@@ -7,7 +7,6 @@ import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;
 
-
 public class CourseController extends Controller<Course> {
 
     public CourseController(CourseJdbcRepository courseRepository) {
@@ -59,4 +58,3 @@ public class CourseController extends Controller<Course> {
         sort(compareByCredits);
     }
 }
-
